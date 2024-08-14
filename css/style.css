@@ -363,3 +363,57 @@ section {
 .gallery__control-prev {
    margin-right: 35px;
 }
+
+/* CONTACTS */
+.contacts {
+   margin: 150px 0;
+}
+
+.contacts__title {
+   margin-bottom: 74px;
+}
+
+.contacts__row {
+   display: flex;
+   gap: 104px;
+}
+
+.contacts__col {
+   max-width: 472px;
+}
+
+.contacts__link {
+   position: relative;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 100%;
+   letter-spacing: -0.03em;
+   color: #121212;
+}
+
+.contacts__link-tel:before {
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   top: -30px;
+   left: -5px;
+   background-image: url(../img/phone.svg);
+   content: '';
+}
+
+.contacts__link-email {
+   opacity: 0.5;
+   text-decoration: underline;
+   text-decoration-color: #000;
+   text-underline-offset: 13px;
+   text-decoration-thickness: 3px;
+}
+
+.contacts__link-email:before {
+   position: absolute;
+   content: '';
+   width: 24px;
+   height: 24px;
+   top: -30px;
+   background-image: url(../img/email.svg);
+}
