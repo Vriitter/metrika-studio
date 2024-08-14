@@ -481,6 +481,17 @@ section {
       display: flex;
       z-index: 300;
    }
+   .hero__title {
+      font-size: 50px;
+      line-height: 120%;
+   }
+   .hero__bg {
+      height: 400px;
+   }
+   .hero__text {
+      left: 42px;
+      bottom: 30px;
+   }
 }
 
 @media (max-width: 550px) {
@@ -505,4 +516,20 @@ section {
    .burger-btn__item :last-of-type {
       width: 24px;
    }   
+   .hero__bg {
+      height: 304px;
+   }
+   .hero__title {
+      margin-bottom: 25px;
+      font-size: 30px;
+      line-height: 31px;
+      line-height: 105%;
+   }
+   .hero__text {
+      max-width: 250px;
+      font-size: 16px;
+      line-height: 22px;
+      left: 15px;
+      bottom: 15px;
+   }
 }
