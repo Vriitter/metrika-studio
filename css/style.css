@@ -527,6 +527,24 @@ section {
    .services__item-title {
       font-size: 25px;
    }
+   .reviews {
+      margin: 120px 0;
+   }
+   .row {
+      gap: 10px;
+   }
+   .cols_big {
+      width: 695px;
+   }   
+   .review__title {
+      margin-bottom: 25px;
+      font-size: 35px;
+      line-height: 48px;
+   }
+   .review__text {
+      font-size: 20px;
+      line-height: 27px;
+   }
 }
 
 @media (max-width: 550px) {
@@ -629,5 +647,25 @@ section {
       height: 100px;
       line-height: 100px;
       font-size: 22px;
+   }
+   .reviews {
+      margin: 80px 0;
+   }
+   .row {
+     flex-direction: column;
+     gap: 80px
+   }
+   .cols {
+      width: 100%;
+   }   
+   .review__title {
+      margin-bottom: 10px;
+      font-size: 25px;
+      line-height: 34px;
+   }
+   .review__text {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 22px;
    }
 }
