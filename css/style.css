@@ -263,3 +263,41 @@ section {
    color: #ad1818;
    transition: all .3s;
 }
+
+/* REVIEWS */
+.reviews {
+   margin: 150px 0;
+}
+
+.row {
+   display: flex;
+   gap: 50px;
+   margin-bottom: 80px;
+}
+
+.cols {
+   width: 530px;
+}
+
+.cols_big {
+   width: 861px;
+}
+
+.review__title {
+   margin-bottom: 14px;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 61px;
+   letter-spacing: -0.03em;
+}
+
+.review__text {
+   margin-bottom: 32px;
+   font-size: 22px;
+   line-height: 30px;
+   letter-spacing: -0.03em;
+}
+
+.review__text:last-of-type {
+   margin-bottom: 0;
+}
