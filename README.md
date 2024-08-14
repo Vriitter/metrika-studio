@@ -3,7 +3,7 @@ Landing page for an interior design studio that creates modern and stylish inter
 
 Deploy:
 
-https://vriitter.github.io/webdev-portfolio/
+https://vriitter.github.io/metrika-studio/
 
 * Fixed layout
 * Adaptive layout for resolutions 960px and 375px
