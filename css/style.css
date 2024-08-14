@@ -492,6 +492,11 @@ section {
       left: 42px;
       bottom: 30px;
    }
+   .about__text {
+      font-size: 35px;
+      line-height: 48px;
+      max-width: 690px;
+   }
 }
 
 @media (max-width: 550px) {
@@ -531,5 +536,15 @@ section {
       line-height: 22px;
       left: 15px;
       bottom: 15px;
+   }
+   .about__text {
+      font-size: 22px;
+      line-height: 30px;
+   }
+   .about__link {
+      width: 194px;
+      height: 51px;
+      font-size: 16px;
+      line-height: 51px;
    }
 }
