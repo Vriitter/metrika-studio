@@ -103,3 +103,36 @@ section {
    color: #fff;
 }
 
+/* ABOUT */
+.about__title {
+   margin-bottom: 30px;
+}
+
+.about__text {
+   font-size: 48px;
+   letter-spacing: -0.03em;
+   line-height: 62px;
+   margin-bottom: 30px;
+}
+
+.about__link {
+   display: block;
+   width: 255px;
+   height: 67px;
+
+   font-size: 20px;
+   letter-spacing: -0.03em;
+   text-align: center;
+   line-height: 67px;
+   border-radius: 5px;
+   background-color: #AD1818;
+   border: 1px solid #AD1818;
+   color: #fff;
+}
+
+.about__link:hover {
+   background-color: transparent;
+   border: 1px solid #AD1818;
+   color: #AD1818;
+   transition: all .3s;
+}
