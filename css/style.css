@@ -301,3 +301,65 @@ section {
 .review__text:last-of-type {
    margin-bottom: 0;
 }
+
+/* GALLERY */
+.gallery-section {
+   margin-bottom: 0;
+}
+
+.gallery {
+   position: relative;
+   color: #fff;
+}
+
+.gallery__slide {
+   display: none;
+}
+
+.gallery__slide_active {
+   display: block;
+}
+
+.gallery__title {
+   position: absolute;
+   top: 67px;
+   z-index: 100;
+   font-weight: 400;
+   font-size: 22px;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+}
+
+.gallery__slide-img {
+   position: relative;
+   width: 100%;
+   max-height: 717px;
+}
+
+.gallery__slide-title {
+   position: absolute;
+   bottom: 60px;
+   width: 420px;
+   height: 82px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+   letter-spacing: -0.03em;
+}
+
+.gallery__controls {
+   position: absolute;
+   display: flex;
+   bottom: 165px;
+}
+
+.gallery__controls button {
+   padding: 0;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+}
+
+.gallery__control-prev {
+   margin-right: 35px;
+}
