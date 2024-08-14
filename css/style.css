@@ -578,6 +578,9 @@ section {
       font-size: 45px;
       line-height: 133%;
    }
+   .footer__nav {
+      display: flex;
+   }
 }
 
 @media (max-width: 767px) {
@@ -755,5 +758,18 @@ section {
    }
    .contacts__link-tel:before {
       top: -35px;
+   }
+   .footer {
+      padding: 30px 0;
+   }
+   .footer__nav {
+      margin-bottom: 41px;
+   }
+   .footer .menu {
+      gap: 30px;
+      font-size: 12px;
+   }
+   .footer__author {
+      font-size: 13px;
    }
 }
